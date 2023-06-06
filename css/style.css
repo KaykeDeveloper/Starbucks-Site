@@ -428,3 +428,12 @@ a#last {
     font-size: .9em;
     color: rgba(99, 94, 94, 0.74);
 }
+
+
+#carousel-indicadores { 
+    display: block;
+}
+
+#carousel-celular {
+    display: none;
+}
