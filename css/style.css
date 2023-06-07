@@ -441,3 +441,7 @@ a#last {
 img.sm {
     display: none;
 }
+
+#hamburguer {
+    display: none;
+}
