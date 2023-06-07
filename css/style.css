@@ -5,6 +5,7 @@
 
 p {
     margin: 0;
+    color:#1E3932 ;
 }
 
 a:hover {
@@ -149,13 +150,13 @@ nav ul li {
 .btns {
     cursor: pointer;
     display: block;
-    color: rgba(0, 0, 0, 0.87);
+    color: #1e3932;
     font-family: 'sodo semiBold';
     font-size: 1em;
     background: #fff;
     padding: 3px 15px;
-    border: 1px solid rgb(26, 26, 26);
-    border-radius: 20px;
+    border: 1px solid #1e3932;
+    border-radius: 58px;
 }
 
 
@@ -368,7 +369,6 @@ footer a {
 
 ul li{
     padding: 10px 0px;
-    width: 200px;
 }
 
 ul h2 {
@@ -435,5 +435,9 @@ a#last {
 }
 
 #carousel-celular {
+    display: none;
+}
+
+img.sm {
     display: none;
 }
