@@ -1,0 +1,156 @@
+@media screen and (max-width: 767px) {
+
+    main {
+        width: 100%;
+        gap: 0px;
+    }
+
+
+    #carousel-celular {
+        display: block;
+    }
+
+    #carousel-indicadores {
+        display: none;
+    }
+
+    #navlinks {
+        display: none;
+    }
+
+    #right-side-nav {
+        display: none;
+    }
+
+    #navbar-1 {
+        width: 100%;
+        padding: 15px 15px;
+    }
+
+    #left-side-nav {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    #hamburguer {
+        display: block;
+        margin-right: 20px;
+    }
+
+    #intro-navbar {
+        padding: 0;
+    }
+
+    #navbar-1 #logo img {
+        width: 40px;
+    }
+
+    section#lojas {
+        padding: 20px;
+        margin: 30px 0px;
+        width: 100%;
+        height: 220px;
+        gap: 14px;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #first-sb, #btn-baixe, #btn-saboreie {
+        font-size: 13px;
+        letter-spacing: 0.5px;
+    }
+
+    #lojas p, #voltando-right-side p, #saboreie p, #esperanca-escrita p, #coisas-boas p {
+        text-align: center;
+        font-size: 13px;
+        width: 250px;
+        line-height: 1.9em;
+    }
+
+    #voltando-ao-que-amamos {
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+
+    #voltando-right-side {
+        padding: 10px;
+        padding-bottom: 30px;
+    }
+
+    #voltando-right-side h3{
+        width: 230px;
+        line-height: 1.1em;
+        padding: 15px;
+    }
+
+    #btn-baixe {
+        line-height: 1.3em;
+        padding: 8px;
+        width: 199px;
+    }
+
+    #saboreie {
+        flex-direction: column-reverse;
+        margin-bottom: 30px;
+    }
+
+    #saboreie-uma-pausa {
+        padding: 30px;
+    }
+    
+    #saboreie-uma-pausa p{
+        width: 220px;
+    }
+
+    #esperanca-e-uniao{
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+
+    #esperanca-escrita p{
+        width: 220px;
+    }
+
+    #esperanca-escrita {
+        padding: 30px;
+    }
+
+    #good-things{
+        flex-direction: column-reverse;
+    }
+
+    #coisas-boas {
+        gap: 15px;
+        justify-content: space-around;
+        padding: 10px 70px 70px 70px;
+    }
+
+    #coisas-boas h3{
+        padding: 5px;
+    }
+
+    .md {
+        display: none;
+    }
+
+    img.sm {
+        display: block;
+        width: 100%;
+    }
+    
+    #saboreie img {
+        width: 100%;
+        height: 100%;
+    }
+
+    #dois-homens img {
+        width: 100%;
+        height: 100%;
+    }
+
+    #coisas-img img {
+        width: 100%;
+        height: 100%;
+    }
+
+}
